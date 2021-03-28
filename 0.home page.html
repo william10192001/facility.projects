@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FACILITY BOOKING SYSTEM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+	ul{
+		margin-left:65%;
+	}
+	
+	.carousel-control-prev-icon{
+		width: 40%;
+		height: 40%;
+		margin-left:-40%;
+		background-color:inset rgba(0, 0, 0, 1);
+	}
+	.carousel-control-next-icon{
+		width: 40%;
+		height: 40%;
+		margin-left:40%;
+		background-color:inset rgba(0, 0, 0, 1);
+	}
+	.logo img{
+		width:90px;
+		height:70px;
+		margin-left:110px;
+		padding:5px 5px;
+	}
+	.HFB{
+		margin-left:-20px;
+		font-size:55px;
+		font-family:Alegreya;
+		color:goldenrod;
+	}
+	.hades{
+		margin-top:-2px;
+		margin-left:10px;
+		line-height:20px;
+	}
+	.jumbotron{
+		height:200px;
+		background-color:#FDFDFD;
+		box-shadow:2px 2px 5px 3px #ebedee;
+	}
+	.bg-light{
+		background-color:#fdfdfd;
+	}
+	.display-3{
+		margin-top:-1%;
+		font-size:280%;
+	}
+	.bg-light{
+		height:30%;
+		margin-top:-30px;
+		box-shadow:inset 0px 0px 20px 10px #ebedee;
+	}
+	.margin{
+		margin-top:-4%;
+	}
+  </style>
+</head>
+
+<body>
+  <ul class="nav nav-tabs"> 
+    <li>
+      <a class="nav-link" href="1.login page.php">LOGIN</a>
+    </li>
+    <li>
+      <a class="nav-link" href="2.register page.php">REGISTER</a>
+    </li>
+	
+	<li>
+		<div class="dropdown">
+			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+				About
+			</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">Company</a>
+			<a class="dropdown-item" href="#">Facility</a>
+		</div>
+		</div>
+	</li>
+  </ul>
+  
+	<div class="jumbotron">
+	<table>
+		<tr>
+			<td><div class="logo"><img src="logo.png" alt="Logo"></div></td>
+ 
+			<td><div class="HFB"><b>HFB</b></div></td>
+	
+			<td><div class="hades"><b>HADES FACILITY BOOKING</b><br>MALAYSIA</div></td>
+		</tr>
+	</table>
+	</div>
+
+
+<div class="container">
+	<div class="jumbotron bg-light">
+		<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <ol class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ol>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="bookingmeetingroom.jpg" alt="BOOKING MEETING ROOM" class="d-block w-100">
+		<div class="carousel-caption">
+          <h3>Reservation</h3>
+          <p>Time schedule</p>
+        </div>
+	</div>
+
+    <div class="carousel-item">
+      <img src="N.jpg" alt="EXAMPLE MEETING ROOM" class="d-block w-100">
+		<div class="carousel-caption">
+          <h3>Soundproof meeting room</h3>
+          <p>Absolute tranquility</p>
+        </div>
+    </div>
+	
+    <div class="carousel-item">
+      <img src="T.jpg" alt="TOP SECRET" class="d-block w-100">
+		<div class="carousel-caption">
+          <h3>Excellent team</h3>
+          <p>Strong and excellent talents</p>
+        </div>
+      </div>
+    </div>
+  
+		<a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		
+		<a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		</div>
+	</div>
+</div>
+  
+<div class="margin">
+<div class="jumbotron text-center">
+  <h1 class="display-3">HADES FACILITY BOOKING</h1>
+  <p class="lead">We are the best.</p> 
+</div>
+ <div class="container">
+ <div class="jumbotron bg-light">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Eliminate Conflicts and Double-Booking Automatically</h3>
+      <p>A proper room booking system will automatically detect and prevent users from booking rooms that already have meetings.</p>
+      <p>This pre-emptive method of detection and prevention eliminates majority of office productivity related problem of having to find a vacant room.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Multiple Methods of booking</h3>
+      <p>Choosing a room booking system that provides various avenues for booking can simplify the process of finding and reserving a room even easier.</p>
+      <p>From web based interface that can be accessed through any browser to a mobile application or a wall-mounted room display panel can provide staff who are always on the move to be able to find and reserve rooms.</p>
+      <p>Offices that use Microsoft Outlook can leverage on plug-ins that allow them to reserve rooms right from within Outlook making life easier.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Better Usage of rooms</h3>        
+      <p>When proper controls and a structured policy for usage is implemented, usage of rooms can improve. </p>
+      <p>A room booking system that provides insight into the usage of rooms and the patterns of bookings and cancellations can help management better understand their office and plan the office space for greater efficiencies.</p>
+    </div>
+  </div>
+ </div>
+ </div>
+ </div>
+
+</body>
+</html>
